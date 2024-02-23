@@ -116,7 +116,7 @@ body {
 }
 
 .top-image-container {
-    width: 100%;
+    width: 40%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -125,7 +125,7 @@ body {
 }
 
 .top-image {
-    max-width: 100%;
+    max-width: 40%;
     height: auto;
     padding: 20px 0; /* Adjusts the padding to give some space at the top and bottom */
 }

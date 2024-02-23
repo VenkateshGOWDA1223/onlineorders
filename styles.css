@@ -102,14 +102,6 @@ body{
     display: flex;
     animation: fadeInDown 0.5s both;
 }
-.form-header {
-    text-align: center; /* Centers the image and any text within the header */
-    padding: 20px; /* Adds some space around the content */
-    background-color: #f4f7fc; /* A light background color for the header area */
-    border-top-left-radius: 12px; /* Matches the container's border-radius */
-    border-top-right-radius: 12px; /* Matches the container's border-radius */
-    box-shadow: 0 4px 6px rgba(0,0,0,0.1); /* Adds a subtle shadow for depth */
-}
 
 .form-image {
     max-width: 60%; /* Ensures the image is responsive and fits within its container */

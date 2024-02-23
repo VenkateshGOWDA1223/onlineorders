@@ -116,16 +116,14 @@ body {
 }
 
 .top-image-container {
-    width: 40%;
+    width: 50%;
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #f4f7fc; /* Adjust the background color as needed */
-    box-shadow: 0 2px 4px rgba(0,0,0,0.1); /* Optional: Adds a subtle shadow for depth */
 }
 
 .top-image {
-    max-width: 40%;
+    max-width: 50%;
     height: auto;
     padding: 20px 0; /* Adjusts the padding to give some space at the top and bottom */
 }

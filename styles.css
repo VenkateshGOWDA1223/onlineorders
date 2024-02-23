@@ -1,0 +1,137 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f4f7fc;
+    font-family: 'Poppins', sans-serif;
+}
+
+.container{
+    max-width: 500px;
+    width: 100%;
+    background: #ffffff;
+    padding: 25px;
+    border-radius: 12px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.container form{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.inputBox{
+    width: 100%;
+    margin-bottom: 20px;
+    position: relative;
+}
+
+.inputBox input[type="text"], .inputBox input[type="email"], .inputBox textarea{
+    width: 100%;
+    padding: 15px;
+    border-radius: 8px;
+    border: 2px solid #e7e7e7;
+    outline: none;
+    font-size: 16px;
+    color: #333;
+    background: transparent;
+    transition: all 0.3s ease;
+}
+
+.inputBox input[type="text"]:focus, .inputBox input[type="email"]:focus, .inputBox textarea:focus{
+    border-color: #007bff;
+}
+
+.inputBox textarea{
+    resize: none;
+    height: 120px;
+    padding-top: 15px;
+}
+
+.inputBox button{
+    padding: 15px 20px;
+    border-radius: 8px;
+    border: none;
+    background-color: #007bff;
+    color: white;
+    font-size: 18px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.inputBox button:hover{
+    background-color: #0056b3;
+}
+
+::placeholder{
+    color: #aaa;
+}
+.alert {
+    display: none;
+    margin-top: 20px;
+    background-image: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    color: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 10px 25px rgba(102, 126, 234, 0.3);
+    text-align: center;
+    font-size: 18px;
+    font-weight: 600;
+    border-left: 4px solid #ffffff;
+    position: relative;
+    overflow: hidden;
+    transition: all 0.4s ease;
+}
+
+.show-alert {
+    display: flex;
+    animation: fadeInDown 0.5s both;
+}
+.form-header {
+    text-align: center; /* Centers the image and any text within the header */
+    padding: 20px; /* Adds some space around the content */
+    background-color: #f4f7fc; /* A light background color for the header area */
+    border-top-left-radius: 12px; /* Matches the container's border-radius */
+    border-top-right-radius: 12px; /* Matches the container's border-radius */
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1); /* Adds a subtle shadow for depth */
+}
+
+.form-image {
+    max-width: 100%; /* Ensures the image is responsive and fits within its container */
+    height: auto; /* Maintains the image's aspect ratio */
+    border-radius: 8px; /* Optionally rounds the corners of the image for a softer look */
+    transition: transform 0.3s ease; /* Smooth transition for any transformations */
+}
+
+.form-header:hover .form-image {
+    transform: scale(1.05); /* Slightly enlarges the image on hover for an interactive effect */
+    box-shadow: 0 8px 15px rgba(0,0,0,0.2); /* Adds a more pronounced shadow on hover for depth */
+}
+
+
+@keyframes fadeInDown {
+    from {
+        opacity: 0;
+        transform: translate3d(0, -100%, 0);
+    }
+    to {
+        opacity: 1;
+        transform: translate3d(0, 0, 0);
+    }
+}
+

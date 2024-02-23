@@ -14,6 +14,10 @@ body{
     background-color: #f4f7fc;
     font-family: 'Poppins', sans-serif;
 }
+.top-image-container {
+  width: 50px; /* Custom width */
+  height:70px; /* Custom height */
+}
 
 .container{
     max-width: 500px;

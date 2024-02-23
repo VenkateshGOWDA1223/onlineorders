@@ -109,13 +109,6 @@ body{
     border-radius: 8px; /* Optionally rounds the corners of the image for a softer look */
     transition: transform 0.3s ease; /* Smooth transition for any transformations */
 }
-
-.form-header:hover .form-image {
-    transform: scale(1.05); /* Slightly enlarges the image on hover for an interactive effect */
-    box-shadow: 0 8px 15px rgba(0,0,0,0.2); /* Adds a more pronounced shadow on hover for depth */
-}
-
-
 @keyframes fadeInDown {
     from {
         opacity: 0;

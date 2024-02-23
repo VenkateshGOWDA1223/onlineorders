@@ -114,20 +114,6 @@ body {
     background-color: #f4f7fc;
     font-family: 'Poppins', sans-serif;
 }
-
-.top-image-container {
-    width: 50%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.top-image {
-    max-width: 50%;
-    height: auto;
-    padding: 20px 0; /* Adjusts the padding to give some space at the top and bottom */
-}
-
 @keyframes fadeInDown {
     from {
         opacity: 0;

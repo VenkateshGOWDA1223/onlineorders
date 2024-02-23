@@ -102,13 +102,34 @@ body{
     display: flex;
     animation: fadeInDown 0.5s both;
 }
-
-.form-image {
-    max-width: 60%; /* Ensures the image is responsive and fits within its container */
-    height: auto; /* Maintains the image's aspect ratio */
-    border-radius: 8px; /* Optionally rounds the corners of the image for a softer look */
-    transition: transform 0.3s ease; /* Smooth transition for any transformations */
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    width: 100%;
+    height: 100vh;
+    background-color: #f4f7fc;
+    font-family: 'Poppins', sans-serif;
 }
+
+.top-image-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f4f7fc; /* Adjust the background color as needed */
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1); /* Optional: Adds a subtle shadow for depth */
+}
+
+.top-image {
+    max-width: 100%;
+    height: auto;
+    padding: 20px 0; /* Adjusts the padding to give some space at the top and bottom */
+}
+
 @keyframes fadeInDown {
     from {
         opacity: 0;
